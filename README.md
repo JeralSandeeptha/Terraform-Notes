@@ -1,7 +1,7 @@
 # Terraform
 
 ## Table of Contents
-- [Introduction to IaC and Terraform](#introduction-to-iac-and-terraform)
+- [Introduction to IaC and Terraform](./introduction.md)
 - [Terraform Installation](#terraform-installation)
 - [Basic Terraform Configuration](#basic-terraform-configuration)
 - [Terraform State](#terraform-state)
