@@ -2,7 +2,8 @@
 
 ## 📌 What is Infrastructure as Code (IaC)?
 - `Infrastructure as Code (IaC)` is the practice of `managing` and `provisioning` computing `infrastructure` through machine-readable configuration files, rather than through physical hardware or interactive configuration tools (like the AWS Console)
-- Instead of manually configuring servers, networks, databases, etc., you write code (usually in JSON, YAML, or domain-specific languages like HCL) to define your infrastructure. This enables automation, versioning, consistency, and repeatability
+- `Instead of manually configuring servers, networks, databases, etc., you write code (usually in JSON, YAML, or domain-specific languages like HCL) to define your infrastructure. This enables automation, versioning, consistency, and repeatability`
+- If we write code for one cloud provider and if we want to change that we can do that. It is doing by calling their respective providers APIs. So that's why we called this as a `API as Code` also
 
 ### Benefits of IaC:
 - ✅ `Consistency`: Avoid configuration drift between environments
@@ -14,6 +15,7 @@
 ## 📌 Why Use Terraform?
 - `Terraform` is a popular open-source `IaC tool` created by `HashiCorp`.
 - It uses a `declarative language` called `HCL` (HashiCorp Configuration Language)
+- Any cloud providers have their own IaC tools but with terraform if we learn at once we can write for any cloud provider 
 
 ###  Key reasons to use Terraform:
 - ☁️ `Multi-Cloud Support`: Works with AWS, Azure, GCP, and many other providers
