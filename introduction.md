@@ -34,7 +34,7 @@
 | **Use Case**         | Infra provisioning | App config + server setup             | AWS-only provisioning | Infra provisioning with real code    |
 | **Complexity**       | Moderate           | Low                                   | Moderate              | High (programmer-friendly)           |
 
-- Use `Terraform` for provisioning infrastructure across clouds.
-- Use `Ansible` for post-provisioning and configuration (e.g., installing software).
-- Use `CloudFormation` if you're AWS-only and want native tooling.
-- Use `Pulumi` if you prefer real programming languages.
+- Use `Terraform` for provisioning infrastructure across clouds
+- Use `Ansible` for post-provisioning and configuration (e.g., installing software)
+- Use `CloudFormation` if you're AWS-only and want native tooling
+- Use `Pulumi` if you prefer real programming languages
