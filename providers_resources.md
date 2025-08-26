@@ -48,3 +48,33 @@ resource "aws_instance" "west_server" {
   instance_type = "t2.micro"
 }
 ```
+
+- Provider’s Resource
+```hcl
+resource "aws_s3_bucket" "example" {
+  bucket = "my-example-bucket-123"
+  acl    = "private"
+}
+```
+
+```hcl
+provider "aws" {
+  region = "us-east-1"
+}
+
+provider "aws" {
+  alias  = "west"
+  region = "us-west-2"
+}
+
+resource "aws_instance" "east_server" {
+  ami           = "ami-123456"
+  instance_type = "t2.micro"
+}
+
+resource "aws_instance" "west_server" {
+  provider      = aws.west   # <-- use aliased provider
+  ami           = "ami-654321"
+  instance_type = "t2.micro"
+}
+```
