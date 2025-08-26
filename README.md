@@ -9,6 +9,7 @@
 
 <br/>
 
+- [Providers](./providers.md)
 - [Input Variables and Outputs](#input-variables-and-outputs)
 - [Terraform Modules](#terraform-modules)
 - [Provisioners and Lifecycle](#provisioners-and-lifecycle)
