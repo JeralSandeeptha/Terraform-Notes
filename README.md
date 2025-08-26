@@ -4,7 +4,7 @@
 - [Introduction to IaC and Terraform](./introduction.md)
 - [Terraform Installation](./installation.md)
 - [Basic Terraform Configuration](#basic-terraform-configuration)
-- [HCL Language](#hcl-language)
+- [HCL Language](./hcl-language.md)
 - [Terraform State](#terraform-state)
 
 <br/>
