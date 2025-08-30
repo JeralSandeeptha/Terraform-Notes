@@ -11,7 +11,7 @@
 <br/>
 
 - [Providers and Resources](./providers_resources.md)
-- [Input Variables and Outputs](#input-variables-and-outputs)
+- [Variables](./variables.md)
 - [Terraform Modules](#terraform-modules)
 - [Provisioners and Lifecycle](#provisioners-and-lifecycle)
 - [Data Sources and Dependencies](#data-sources-and-dependencies)
