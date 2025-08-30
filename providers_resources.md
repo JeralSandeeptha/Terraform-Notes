@@ -1,5 +1,5 @@
 ## Providers
-- `Providers` are plugins that let Terraform talk to different platforms, APIs, or services.
+- `Providers` are plugins that let Terraform talk to different platforms, APIs, or services. In other way `Provider` is a plugin that helps to terraform to understand where to create specific infrastructure.
 - `Providers` are Terraform plugins for cloud/services.
 - These are like a bridge between Terraform and the actual infrastructure you’re managing.
 - A provider knows how to manage resources for a specific service.
