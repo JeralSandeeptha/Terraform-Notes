@@ -6,6 +6,8 @@
     - `Input` variables
     - `Output` variables
 
+<br />
+
 ### Input Variables
 - `Input variables` are used to parameterize your Terraform configurations
 - They allow you to pass values into your modules or configurations from the outside
@@ -25,5 +27,15 @@ variable "example_var" {
 <!-- we can use this variable with `var.example_var` -->
 ```
 
+<br />
+
 ### Output Variables
 - `Output variables` allow you to expose values from your module or configuration, making them available for use in other parts of your Terraform setup
+- There are some attributes to define output variables
+
+```hcl
+output "example_output" {
+  description = "An example output variable"
+  value       = resource.example_resource.example.id
+} 
+```
