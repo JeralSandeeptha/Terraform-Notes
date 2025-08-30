@@ -8,6 +8,11 @@
 - You configure them in provider blocks.
 - You can use multiple providers in the same project.
 
+- There are different types of providers
+  - `Official` Providers
+  - `Partner` Providers
+  - `Community` Providers
+
 ```hcl
 terraform {
   required_providers {
