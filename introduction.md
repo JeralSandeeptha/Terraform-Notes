@@ -55,3 +55,4 @@
 
 ### Benefits
 ![Image](https://res.cloudinary.com/djgwvmcdl/image/upload/v1765694686/55aed99e-bb21-47b9-9a07-babcdf10d898.png)
+![Image](https://res.cloudinary.com/djgwvmcdl/image/upload/v1765694710/bfb154e3-553e-44a5-b3a9-c17549ee10d6.png)
