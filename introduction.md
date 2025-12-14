@@ -5,6 +5,8 @@
 - `Instead of manually configuring servers, networks, databases, etc., you write code (usually in JSON, YAML, or domain-specific languages like HCL) to define your infrastructure. This enables automation, versioning, consistency, and repeatability`
 - If we write code for one cloud provider and if we want to change that we can do that. It is doing by calling their respective providers APIs. So that's why we called this as a `API as Code` also
 
+<br />
+
 ### Benefits of IaC:
 - ✅ `Consistency`: Avoid configuration drift between environments
 - ✅ `Automation`: Reuse scripts to deploy infrastructure
@@ -12,10 +14,14 @@
 - ✅ `Speed`: Provision entire infrastructures in minutes
 - ✅ `Scalability`: Scale resources up/down quickly and safely
 
+<br />
+
 ## 📌 Why Use Terraform?
 - `Terraform` is a popular open-source `IaC tool` created by `HashiCorp`.
 - It uses a `declarative language` called `HCL` (HashiCorp Configuration Language)
 - Any cloud providers have their own IaC tools but with terraform if we learn at once we can write for any cloud provider 
+
+<br />
 
 ###  Key reasons to use Terraform:
 - ☁️ `Multi-Cloud Support`: Works with AWS, Azure, GCP, and many other providers
@@ -38,6 +44,8 @@
 - Use `Ansible` for post-provisioning and configuration (e.g., installing software)
 - Use `CloudFormation` if you're AWS-only and want native tooling
 - Use `Pulumi` if you prefer real programming languages
+
+<br />
 
 ### How to provision infrasturcture?
 ![Image](https://res.cloudinary.com/djgwvmcdl/image/upload/v1765694646/ac7ddc03-c979-4234-95b6-6cda6d88d2de.png)
