@@ -38,3 +38,6 @@
 - Use `Ansible` for post-provisioning and configuration (e.g., installing software)
 - Use `CloudFormation` if you're AWS-only and want native tooling
 - Use `Pulumi` if you prefer real programming languages
+
+### How to provision infrasturcture?
+![Image](https://res.cloudinary.com/djgwvmcdl/image/upload/v1765694646/ac7ddc03-c979-4234-95b6-6cda6d88d2de.png)
