@@ -126,3 +126,5 @@ terraform destroy
      │ Destroy  │  (optional)
      └──────────┘
 ```
+
+![Image](https://res.cloudinary.com/djgwvmcdl/image/upload/v1765694810/e27bedbd-249f-4677-bb6a-2ee4eecc9e0f.png)
