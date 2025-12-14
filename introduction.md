@@ -56,3 +56,8 @@
 ### Benefits
 ![Image](https://res.cloudinary.com/djgwvmcdl/image/upload/v1765694686/55aed99e-bb21-47b9-9a07-babcdf10d898.png)
 ![Image](https://res.cloudinary.com/djgwvmcdl/image/upload/v1765694710/bfb154e3-553e-44a5-b3a9-c17549ee10d6.png)
+
+<br />
+
+### Terraform Architecture
+![Image](https://res.cloudinary.com/djgwvmcdl/image/upload/v1765694735/dd3dd72a-038c-4890-bc00-2e94b68797e1.png)
