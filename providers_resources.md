@@ -1,4 +1,4 @@
-## Providers
+<img width="415" height="470" alt="image" src="https://github.com/user-attachments/assets/3b0cbb5c-8297-406d-a2f6-28f43765fefe" />## Providers
 - `Providers` are plugins that let Terraform talk to different platforms, APIs, or services. In other way `Provider` is a plugin that helps to terraform to understand where to create specific infrastructure.
 - `Providers` are Terraform plugins for cloud/services.
 - These are like a bridge between Terraform and the actual infrastructure you’re managing.
@@ -83,3 +83,7 @@ resource "aws_instance" "west_server" {
   instance_type = "t2.micro"
 }
 ```
+<br />
+
+### Versions and Constraints
+![Image](https://res.cloudinary.com/djgwvmcdl/image/upload/v1765723645/108fb5e4-a8ac-4d15-8b40-9d5b28b6d1f9.png)
