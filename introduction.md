@@ -49,3 +49,9 @@
 
 ### How to provision infrasturcture?
 ![Image](https://res.cloudinary.com/djgwvmcdl/image/upload/v1765694646/ac7ddc03-c979-4234-95b6-6cda6d88d2de.png)
+
+
+<br />
+
+### Benefits
+![Image](https://res.cloudinary.com/djgwvmcdl/image/upload/v1765694686/55aed99e-bb21-47b9-9a07-babcdf10d898.png)
