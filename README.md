@@ -5,7 +5,7 @@
 - [Terraform Installation](./installation.md)
 - [Basic Terraform Configuration](#basic-terraform-configuration)
 - [HCL Language](./hcl-language.md)
-- [Terraform State](#terraform-state)
+- [Terraform State](./state.md)
 - [Terraform Workflow](./workflow.md)
 
 <br/>
