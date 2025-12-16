@@ -19,7 +19,7 @@
 
 <br/>
 
-- [Workspaces and Environments](#workspaces-and-environments)
+- [Workspaces and Environments](./workspaces.md)
 - [Remote Backend and State Management](#remote-backend-and-state-management)
 - [Terraform with GitOps](#terraform-with-gitops)
 - [Security and Compliance](#security-and-compliance)
