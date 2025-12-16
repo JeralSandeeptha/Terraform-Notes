@@ -47,6 +47,10 @@ terraform apply -var-file="prod.tfvars"
 
 <br />
 
+`.auto.tfvars` is a Terraform variable file that is automatically loaded without needing to pass -var-file on the command line. It’s mainly used to separate environment- or config-specific values while keeping Terraform runs simple. This has main priority than normal `tfvars` files.
+
+<br />
+
 ### Output Variables
 - `Output variables` allow you to expose values from your module or configuration, making them available for use in other parts of your Terraform setup
 - There are some attributes to define output variables
@@ -58,4 +62,5 @@ output "example_output" {
 } 
 
 ```
+
 
