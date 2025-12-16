@@ -2,9 +2,33 @@
 - Variables in Terraform are essential for parameterizing and sharing values within your Terraform configurations and modules
 - They allow you to make your configurations more dynamic, reusable, and flexible
 
-- There are 2 types of variables
+- There are 3 types of variables
+    - `Locals` variables
     - `Input` variables
     - `Output` variables
+
+<br />
+
+### Locals Variables
+- Tempary variables inside of the file / function body
+
+- These are
+    - Are computed once
+    - Are not configurable from outside
+    - Help make code cleaner, DRYer, and easier to read
+ 
+- Define
+```hcl
+locals {
+  app_name = "my-app"
+  env      = "dev"
+}
+```
+
+- Usage
+```hcl
+name = "${local.app_name}-${local.env}"
+```
 
 <br />
 
@@ -72,6 +96,7 @@ output "example_output" {
 } 
 
 ```
+
 
 
 
