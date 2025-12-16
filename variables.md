@@ -27,6 +27,8 @@ variable "example_var" {
 <!-- we can use this variable with `var.example_var` -->
 ```
 
+![Image](https://res.cloudinary.com/djgwvmcdl/image/upload/v1765912657/773272dc-91e9-431d-bb42-fa2a1855dad1.png)
+
 <br />
 
 ### Output Variables
@@ -38,4 +40,5 @@ output "example_output" {
   description = "An example output variable"
   value       = resource.example_resource.example.id
 } 
+
 ```
