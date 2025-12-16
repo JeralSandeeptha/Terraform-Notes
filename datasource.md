@@ -2,7 +2,11 @@
 
 - In Terraform, `data sources` let you read and use information from existing infrastructure or external systems without creating or modifying them.
 
+<br/ >
+
 ![Image](https://res.cloudinary.com/djgwvmcdl/image/upload/v1765910240/4405d99f-6fce-4bba-a3d0-298a8bf8557c.png)
+
+<br/ >
 
 A data source:
 - Fetches data from a provider (`AWS`, `Azure`, `GCP`, etc.)
