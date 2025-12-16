@@ -43,9 +43,7 @@ terraform plan  -var-file="dev.tfvars"
 terraform apply -var-file="prod.tfvars"
 ```
 
-`Use .tfvars for environment differences`
-
-<br />
+Use `.tfvars for environment differences`
 
 `.auto.tfvars` is a Terraform variable file that is automatically loaded without needing to pass -var-file on the command line. It’s mainly used to separate environment- or config-specific values while keeping Terraform runs simple. This has main priority than normal `tfvars` files.
 
@@ -62,5 +60,6 @@ output "example_output" {
 } 
 
 ```
+
 
 
