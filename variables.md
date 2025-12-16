@@ -49,6 +49,18 @@ Use `.tfvars for environment differences`
 
 <br />
 
+📊 Variable Precedence Summary Table
+| Priority   | Source                           |
+| ---------- | -------------------------------- |
+| 🔽 Lowest  | Variable defaults                |
+|            | `TF_VAR_*` environment variables |
+|            | `terraform.tfvars`               |
+|            | `*.auto.tfvars`                  |
+|            | `-var-file`                      |
+| 🔼 Highest | `-var`                           |
+
+<br />
+
 ### Output Variables
 - `Output variables` allow you to expose values from your module or configuration, making them available for use in other parts of your Terraform setup
 - There are some attributes to define output variables
@@ -60,6 +72,7 @@ output "example_output" {
 } 
 
 ```
+
 
 
 
