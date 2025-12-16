@@ -7,6 +7,8 @@ Terraform follows a standard 4-step workflow:
   - `Apply`
   - `Detroy`
 
+<br />
+
 ✅ 1. Write (Configuration)
 We write .tf files using HCL (HashiCorp Configuration Language).
 
