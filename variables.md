@@ -11,6 +11,8 @@
 
 ### Locals Variables
 - Tempary variables inside of the file / function body
+- We can use outside of the files but can't use `locals` outside of the modules.
+- They are `module specific`
 
 - These are
     - Are computed once
@@ -96,6 +98,7 @@ output "example_output" {
 } 
 
 ```
+
 
 
 
