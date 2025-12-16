@@ -29,6 +29,22 @@ variable "example_var" {
 
 ![Image](https://res.cloudinary.com/djgwvmcdl/image/upload/v1765912657/773272dc-91e9-431d-bb42-fa2a1855dad1.png)
 
+In Terraform, `.tfvars` files are used to `assign values to input variables` so you don’t hard-code them in your configuration.
+
+```hcl
+# development.tfvars
+region         = "us-east-1"
+instance_count = 2
+```
+
+apply like this
+```hcl
+terraform plan  -var-file="dev.tfvars"
+terraform apply -var-file="prod.tfvars"
+```
+
+`Use .tfvars for environment differences`
+
 <br />
 
 ### Output Variables
@@ -42,3 +58,4 @@ output "example_output" {
 } 
 
 ```
+
