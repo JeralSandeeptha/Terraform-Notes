@@ -13,7 +13,7 @@
 - [Providers and Resources](./providers_resources.md)
 - [Variables](./variables.md)
 - [Datasources](./datasource.md)
-- [Terraform Modules](#terraform-modules)
+- [Terraform Modules](./modules.md)
 - [Provisioners and Lifecycle](#provisioners-and-lifecycle)
 - [Data Sources and Dependencies](#data-sources-and-dependencies)
 
