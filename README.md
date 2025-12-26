@@ -16,7 +16,7 @@
 - [Terraform Modules](./modules.md)
 - [Provisioners and Lifecycle](#provisioners-and-lifecycle)
 - [Data Sources and Dependencies](#data-sources-and-dependencies)
-- [Terraform Validations](#)
+- [Terraform Validations](./validations.md)
 
 <br/>
 
