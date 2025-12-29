@@ -7,9 +7,13 @@ They help you:
   - Fail early (before apply) 🚨
   - Enforce standards (naming, CIDR ranges, regions, etc.) 🛡️
 
+<br />
+
 Validations run during:
   - `terraform plan`
   - `terraform apply`
+
+<br />
 
 Terraform validations are mainly used in `variables block` 
 
@@ -24,6 +28,8 @@ variable "example" {
   }
 }
 ```
+
+<br />
 
 Key rules are,
   - condition must evaluate to true
