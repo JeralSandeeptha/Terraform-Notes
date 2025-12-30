@@ -6,6 +6,8 @@
 
 ![Image](https://res.cloudinary.com/djgwvmcdl/image/upload/v1765910240/4405d99f-6fce-4bba-a3d0-298a8bf8557c.png)
 
+<br />
+
 A data source:
 - Fetches data from a provider (`AWS`, `Azure`, `GCP`, etc.)
 - Does not create or manage resources
