@@ -1,4 +1,8 @@
-<img width="415" height="470" alt="image" src="https://github.com/user-attachments/assets/3b0cbb5c-8297-406d-a2f6-28f43765fefe" />## Providers
+# Providers and Resoruces
+
+<img width="415" height="470" alt="image" src="https://github.com/user-attachments/assets/3b0cbb5c-8297-406d-a2f6-28f43765fefe" />
+
+## Providers
 - `Providers` are plugins that let Terraform talk to different platforms, APIs, or services. In other way `Provider` is a plugin that helps to terraform to understand where to create specific infrastructure.
 - `Providers` are Terraform plugins for cloud/services.
 - These are like a bridge between Terraform and the actual infrastructure you’re managing.
